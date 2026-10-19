@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand Colors -->
+    <color name="brand_maroon">#5D1013</color>
+    <color name="brand_maroon_dark">#3D0A0C</color>
+    <color name="brand_orange">#E85D04</color>
+    <color name="brand_orange_light">#F48C06</color>
+    <color name="brand_amber">#FF9F1C</color>
+    <color name="brand_cream">#FFF5EB</color>
+
+    <!-- Status Colors -->
+    <color name="status_normal_green">#2E7D32</color>
+    <color name="status_normal_bg">#E8F5E9</color>
+    <color name="status_normal_border">#A5D6A7</color>
+
+    <color name="status_alert_red">#D32F2F</color>
+    <color name="status_alert_bg">#FFEBEE</color>
+    <color name="status_alert_border">#EF9A9A</color>
+
+    <color name="status_info_blue">#1976D2</color>
+    <color name="status_info_bg">#E3F2FD</color>
+
+    <!-- UI Background & Text -->
+    <color name="app_bg">#F8F9FA</color>
+    <color name="card_bg">#FFFFFF</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#666666</color>
+    <color name="text_muted">#9E9E9E</color>
+    <color name="divider_color">#EEEEEE</color>
+    <color name="border_light">#E0E0E0</color>
+
+    <!-- Standard -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

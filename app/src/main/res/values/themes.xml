@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.SmartKitchen" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/brand_maroon</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/brand_cream</item>
+        <item name="colorOnPrimaryContainer">@color/brand_maroon</item>
+        <item name="colorSecondary">@color/brand_orange</item>
+        <item name="android:statusBarColor">@color/brand_maroon</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <style name="Theme.SmartKitchen" parent="Base.Theme.SmartKitchen" />
+</resources>

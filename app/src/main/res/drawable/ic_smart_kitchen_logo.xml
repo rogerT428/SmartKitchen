@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Steam / Flames Above Lid -->
+    <path
+        android:fillColor="#E85D04"
+        android:pathData="M 92,10 C 90,20 100,25 96,35 C 93,28 88,24 90,16 Z" />
+    <path
+        android:fillColor="#F48C06"
+        android:pathData="M 100,5 C 97,18 110,24 105,36 C 101,28 95,22 98,12 Z" />
+    <path
+        android:fillColor="#E85D04"
+        android:pathData="M 108,12 C 106,20 114,26 112,35 C 109,28 104,24 106,18 Z" />
+
+    <!-- Lid Knob -->
+    <path
+        android:fillColor="#5D1013"
+        android:pathData="M 94,36 H 106 C 108,36 108,39 106,39 H 94 C 92,39 92,36 94,36 Z" />
+
+    <!-- Cooking Pot Lid -->
+    <path
+        android:fillColor="#5D1013"
+        android:pathData="M 70,48 C 70,40 130,40 130,48 Z" />
+
+    <!-- Pot Rim Handles -->
+    <path
+        android:fillColor="#5D1013"
+        android:pathData="M 62,49 H 138 C 140,49 141,52 138,54 H 62 C 59,52 60,49 62,49 Z" />
+
+    <!-- Main Pot Body -->
+    <path
+        android:fillColor="#5D1013"
+        android:pathData="M 68,54 C 68,88 132,88 132,54 Z" />
+
+    <!-- House Outline inside Pot Body (Cutout/Cream) -->
+    <path
+        android:fillColor="#FFF5EB"
+        android:pathData="M 100,58 L 78,70 L 78,71 H 122 L 122,70 Z M 83,72 H 117 V 80 C 117,80 110,83 100,83 C 90,83 83,80 83,80 Z" />
+
+    <!-- 4-Pane Window inside House (Orange filled) -->
+    <!-- Top-Left Pane -->
+    <path
+        android:fillColor="#F48C06"
+        android:pathData="M 94,73 H 99 V 77 H 94 Z" />
+    <!-- Top-Right Pane -->
+    <path
+        android:fillColor="#F48C06"
+        android:pathData="M 101,73 H 106 V 77 H 101 Z" />
+    <!-- Bottom-Left Pane -->
+    <path
+        android:fillColor="#F48C06"
+        android:pathData="M 94,78 H 99 V 82 H 94 Z" />
+    <!-- Bottom-Right Pane -->
+    <path
+        android:fillColor="#F48C06"
+        android:pathData="M 101,78 H 106 V 82 H 101 Z" />
+
+    <!-- Text: Smart -->
+    <!-- S -->
+    <path
+        android:fillColor="#5D1013"
+        android:pathData="M 46,104 C 44,101 49,97 54,98 C 58,99 59,102 57,104 C 55,106 48,106 47,109 C 46,112 52,114 56,113 C 60,112 60,109 60,109"
+        android:strokeWidth="3.5"
+        android:strokeColor="#5D1013"
+        android:strokeLineCap="round"/>
+    <!-- m -->
+    <path
+        android:fillColor="#5D1013"
+        android:pathData="M 64,102 V 113 M 64,106 C 66,102 70,102 71,106 V 113 M 71,106 C 73,102 78,102 78,106 V 113"
+        android:strokeWidth="3"
+        android:strokeColor="#5D1013"
+        android:strokeLineCap="round"/>
+    <!-- a -->
+    <path
+        android:fillColor="#5D1013"
+        android:pathData="M 87,102 C 82,102 81,107 83,110 C 85,113 89,113 90,110 V 102 M 90,106 H 83"
+        android:strokeWidth="3"
+        android:strokeColor="#5D1013"
+        android:strokeLineCap="round"/>
+    <!-- Leaf/Flame accent in orange on 'a' or near 'o' -->
+    <path
+        android:fillColor="#E85D04"
+        android:pathData="M 87,100 C 89,96 92,97 90,101 Z" />
+    <!-- r -->
+    <path
+        android:fillColor="#5D1013"
+        android:pathData="M 96,102 V 113 M 96,105 C 98,102 102,102 103,104"
+        android:strokeWidth="3"
+        android:strokeColor="#5D1013"
+        android:strokeLineCap="round"/>
+    <!-- t -->
+    <path
+        android:fillColor="#5D1013"
+        android:pathData="M 108,98 V 111 C 108,113 111,113 112,112 M 105,103 H 111"
+        android:strokeWidth="3"
+        android:strokeColor="#5D1013"
+        android:strokeLineCap="round"/>
+
+    <!-- Subtext: K I T C H E N -->
+    <path
+        android:fillColor="#5D1013"
+        android:pathData="M 52,126 V 135 M 57,126 L 52,130 L 57,135 M 65,126 V 135 M 72,126 H 80 M 76,126 V 135 M 86,126 C 91,126 91,130 87,130 C 91,130 91,135 86,135 M 95,126 V 135 M 95,130 H 100 M 100,126 V 135 M 106,126 V 135 M 106,126 H 112 M 106,130 H 111 M 106,135 H 112 M 117,135 V 126 L 123,135 V 126"
+        android:strokeWidth="2.2"
+        android:strokeColor="#5D1013"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"/>
+
+</vector>

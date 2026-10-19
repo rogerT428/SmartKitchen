@@ -1,0 +1,158 @@
+<resources>
+    <string name="app_name">Smart Kitchen</string>
+    <string name="app_subtitle">Sistem Monitoring Keamanan Gas Dapur Berbasis IoT (ESP32 + MQ-2)</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Beranda</string>
+    <string name="nav_monitoring">Monitoring</string>
+    <string name="nav_history">Riwayat</string>
+    <string name="nav_settings">Pengaturan</string>
+
+    <!-- Splash & Welcome -->
+    <string name="splash_loading">Memuat aplikasi&#8230;</string>
+    <string name="welcome_title">Jaga Keamanan Dapur Anda</string>
+    <string name="welcome_desc">Pantau kondisi gas secara real-time, dapatkan peringatan dini, dan lindungi keluarga Anda.</string>
+    <string name="btn_start">Mulai  ›</string>
+    <string name="btn_about">Tentang Aplikasi</string>
+
+    <!-- Header -->
+    <string name="esp32_online">ESP32 Online</string>
+
+    <!-- Home Normal -->
+    <string name="status_normal">NORMAL</string>
+    <string name="desc_normal">Tidak ada indikasi gas tinggi dari pembacaan sensor.</string>
+
+    <!-- Home Alert -->
+    <string name="status_gas_alert">GAS TERDETEKSI</string>
+    <string name="desc_gas_alert">Pembacaan sensor melebihi ambang peringatan.</string>
+
+    <!-- Sensor Metric Labels -->
+    <string name="label_sensor_val">Nilai Sensor Gas (MQ-2)</string>
+    <string name="unit_sensor_adc">Nilai sensor (ADC)</string>
+    <string name="last_updated">Diperbarui: 18 Apr 2025 14:21:00</string>
+    <string name="last_updated_alert">Diperbarui: 18 Apr 2025 14:23:15</string>
+
+    <!-- Hardware Indicators -->
+    <string name="led_green_on">LED Hijau ON</string>
+    <string name="led_red_on">LED Merah ON</string>
+    <string name="buzzer_off">Buzzer OFF</string>
+    <string name="buzzer_on">Buzzer ON</string>
+
+    <!-- Chart / Real-Time -->
+    <string name="chart_realtime_title">Grafik Real-Time</string>
+    <string name="chart_sensor_readings">Grafik Pembacaan Sensor</string>
+    <string name="tab_graph">Grafik</string>
+    <string name="tab_data">Data</string>
+    <string name="current_val">Nilai Saat Ini</string>
+    <string name="threshold_label">Threshold / Ambang (800)</string>
+
+    <!-- History -->
+    <string name="title_history">Riwayat Aktivitas</string>
+    <string name="filter_date">18 Apr 2025</string>
+
+    <!-- History Details -->
+    <string name="title_history_detail">Detail Aktivitas</string>
+    <string name="gas_alert_heading">Peringatan Gas</string>
+    <string name="history_time">18 Apr 2025, 14:23:15</string>
+    <string name="detail_sensor_val">Nilai Sensor</string>
+    <string name="detail_status">Status</string>
+    <string name="detail_duration">Durasi</string>
+    <string name="detail_device_cond">Kondisi Perangkat</string>
+    <string name="detail_desc">Keterangan</string>
+    <string name="detail_duration_val">2 menit 30 detik</string>
+    <string name="detail_device_val">Online</string>
+    <string name="detail_desc_val">Pembacaan sensor melebihi ambang peringatan yang telah ditentukan. Pastikan kondisi dapur aman.</string>
+
+    <!-- Settings -->
+    <string name="title_settings">Pengaturan</string>
+    <string name="header_device">Perangkat</string>
+    <string name="device_name">ESP32 Kitchen Sensor</string>
+    <string name="device_sub">Smart Kitchen v1</string>
+    <string name="device_status">Online Terhubung ke Wi-Fi</string>
+    <string name="header_sensor_settings">Pengaturan Sensor</string>
+    <string name="threshold_setting">Ambang Peringatan (Threshold)</string>
+    <string name="update_interval_setting">Interval Pembaruan Data</string>
+    <string name="header_notifications">Notifikasi</string>
+    <string name="notify_alert">Notifikasi Peringatan</string>
+    <string name="btn_test_notification">Uji Notifikasi Sekarang</string>
+
+    <!-- Emergency Guide -->
+    <string name="title_emergency_guide">Panduan Keselamatan</string>
+    <string name="emergency_step_1">Tetap tenang dan jangan panik.</string>
+    <string name="emergency_step_2">Segera matikan kompor dan sumber api lainnya.</string>
+    <string name="emergency_step_3">Buka jendela dan pintu untuk sirkulasi udara.</string>
+    <string name="emergency_step_4">Jangan menyalakan atau mematikan perangkat listrik di area yang dicurigai terdapat gas.</string>
+    <string name="emergency_step_5">Jauhkan dari area berbahaya.</string>
+    <string name="emergency_step_6">Hubungi layanan darurat jika kondisi tidak membaik.</string>
+    <string name="emergency_disclaimer">Panduan ini bersifat umum dan digunakan untuk situasi darurat.</string>
+
+    <!-- About -->
+    <string name="title_about">Tentang Aplikasi</string>
+    <string name="about_app_name">Smart Kitchen v1.0.0</string>
+    <string name="about_desc">Sistem Monitoring Keamanan Gas Dapur Berbasis IoT. Aplikasi ini dikembangkan untuk memantau kondisi gas di dapur secara real-time dan memberikan peringatan dini demi keselamatan keluarga.</string>
+    <string name="about_disclaimer">Aplikasi ini merupakan prototipe pembelajaran dan tidak menggantikan detektor gas bersertifikasi.</string>
+    <!-- Simulation -->
+    <string name="sim_label">Simulasi Status Gas:</string>
+    <string name="sim_normal">Normal</string>
+    <string name="sim_alert">Gas Alert</string>
+    <string name="cd_wifi">WiFi</string>
+    <!-- Emergency -->
+    <string name="btn_emergency_guide">🚨 Lihat Panduan Darurat</string>
+    <string name="cd_led">LED</string>
+    <string name="cd_buzzer">Buzzer</string>
+    <string name="val_320">320</string>
+    <string name="val_1250">1250</string>
+    <!-- Monitoring Data -->
+    <string name="legend_sensor_val">Nilai sensor</string>
+    <string name="legend_threshold">Threshold</string>
+    <string name="val_560">560</string>
+    <string name="label_status">Status</string>
+    <string name="last_updated_refresh">Terakhir Diperbarui 14:24:10 ˅</string>
+    <string name="data_summary_title">Ringkasan Parameter Sensor MQ-2</string>
+    <string name="param_model">Model Sensor</string>
+    <string name="param_model_val">MQ-2 Gas Sensor</string>
+    <string name="param_adc">Pembacaan ADC (Raw)</string>
+    <string name="param_adc_val">560 ADC</string>
+    <string name="param_ppm">Estimasi Konsentrasi</string>
+    <string name="param_ppm_val">280 PPM</string>
+    <string name="param_voltage">Tegangan Sensor (V)</string>
+    <string name="param_voltage_val">1.35 V</string>
+    <string name="param_threshold">Ambang Batas (Threshold)</string>
+    <string name="param_threshold_val">800 ADC</string>
+    <string name="cd_value">Value</string>
+    <string name="cd_status">Status</string>
+    <string name="cd_refresh">Refresh</string>
+    <!-- History Strings -->
+    <string name="cd_calendar">Calendar</string>
+    <string name="cd_dropdown">Dropdown</string>
+    <string name="cd_alert">Alert</string>
+    <string name="cd_detail">Detail</string>
+    <string name="cd_normal">Normal</string>
+    <string name="cd_info">Info</string>
+    <string name="time_1423">14:23</string>
+    <string name="time_1421">14:21</string>
+    <string name="time_1418">14:18</string>
+    <string name="time_1415">14:15</string>
+    <string name="time_1412">14:12</string>
+    <string name="val_sensor_1250">Nilai sensor: 1250</string>
+    <string name="val_sensor_560">Nilai sensor: 560</string>
+    <string name="val_sensor_420">Nilai sensor: 420</string>
+    <string name="val_sensor_380">Nilai sensor: 380</string>
+    <string name="device_online_title">Perangkat Online</string>
+    <string name="esp32_connected">ESP32 terhubung</string>
+    <!-- Common -->
+    <string name="cd_back">Kembali</string>
+    <!-- Settings Content Descriptions -->
+    <string name="cd_device">Device</string>
+    <string name="cd_notification">Notification</string>
+    <string name="cd_guide">Guide</string>
+    <string name="cd_next">Next</string>
+    <string name="cd_about">About</string>
+    <!-- Step numbers -->
+    <string name="num_1">1</string>
+    <string name="num_2">2</string>
+    <string name="num_3">3</string>
+    <string name="num_4">4</string>
+    <string name="num_5">5</string>
+    <string name="num_6">6</string>
+</resources>
